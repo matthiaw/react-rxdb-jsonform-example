@@ -1,8 +1,28 @@
 # React-RxDB-JsonForm-Example
 
-Another Example of a working database-sync-project between IndexedDB (Client) and RxDB (Server). For this i merged the [RxDB-Example](https://github.com/pubkey/rxdb/tree/master/examples/react) with another great [Example](https://blog.logrocket.com/building-an-offline-first-app-with-react-and-rxdb-e97a1fa64356). 
+Another Example of a working database-sync-project between IndexedDB (Client) and RxDB (Server). For this i merged the [RxDB-Example](https://github.com/pubkey/rxdb/tree/master/examples/react) with another great [Example from Esteban Herrera](https://blog.logrocket.com/building-an-offline-first-app-with-react-and-rxdb-e97a1fa64356). 
 
 For this i simplified and extend the Version with [React.JsonSchemaForm](https://github.com/mozilla-services/react-jsonschema-form) and [React.Table](https://react-table.js.org/#/story/readme). So it is possible to edit a Row-Value and write it back to the database.
+
+You can start the App with
+```
+npm start
+```
+
+When started you can start the App in the Browser at
+```
+http://localhost:3000
+```
+and look into IndexDB at
+```
+http://localhost:5984/_utils/
+```
+
+You can check the Offline-DB with
+```
+npm run build
+npm run offline
+```
 
 ![s](https://image.ibb.co/f7j1wb/hero_example.png)
 
