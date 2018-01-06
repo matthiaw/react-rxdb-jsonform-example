@@ -1,10 +1,12 @@
-#React-RxDB-JsobForm-Example
+# React-RxDB-JsobForm-Example
 
-![Example][ "s"]
+Another Example of a working database-sync-project between IndexedDB (Client) and RxDB (Server). For this i merged the [RxDB-Example](https://github.com/pubkey/rxdb/tree/master/examples/react) with another great [Example](https://blog.logrocket.com/building-an-offline-first-app-with-react-and-rxdb-e97a1fa64356). 
+
+For this i simplified and extend the Version with [React.JsonSchemaForm](https://github.com/mozilla-services/react-jsonschema-form) and [React.Table](https://react-table.js.org/#/story/readme). So it is possible to edit a Row-Value and write it back to the database.
 
 ![s](https://image.ibb.co/f7j1wb/hero_example.png)
 
-#React-App
+# React-App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
