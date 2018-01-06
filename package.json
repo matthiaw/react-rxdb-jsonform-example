@@ -1,5 +1,5 @@
 {
-	"name": "circlead",
+	"name": "react-rxdb-jsonform-example",
 	"version": "0.1.0",
 	"scripts": {
 		"start": "concurrently \"npm run server\" \"react-scripts start\"",
