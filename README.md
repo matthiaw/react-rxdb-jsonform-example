@@ -1,4 +1,4 @@
-# React-RxDB-JsobForm-Example
+# React-RxDB-JsonForm-Example
 
 Another Example of a working database-sync-project between IndexedDB (Client) and RxDB (Server). For this i merged the [RxDB-Example](https://github.com/pubkey/rxdb/tree/master/examples/react) with another great [Example](https://blog.logrocket.com/building-an-offline-first-app-with-react-and-rxdb-e97a1fa64356). 
 
