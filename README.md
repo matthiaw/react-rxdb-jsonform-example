@@ -1,6 +1,6 @@
 #React-RxDB-JsobForm-Example
 
-![Example][https://image.ibb.co/f7j1wb/hero_example.png]
+![Example][https://image.ibb.co/f7j1wb/hero_example.png "s"]
 
 #React-App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
