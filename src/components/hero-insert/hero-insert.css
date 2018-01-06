@@ -1,0 +1,29 @@
+
+.btn {
+    background-color: #222;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #61DAFB;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 1.5%;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+input {
+    width: 98%;
+}
+
+.form-group {
+  padding: 2%;
+}
+
+.control-label {
+  font-weight: bold;
+}
+
+.field-description {
+  color: grey;
+}

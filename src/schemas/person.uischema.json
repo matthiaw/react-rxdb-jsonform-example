@@ -1,0 +1,7 @@
+{
+	"id": {
+    "ui:widget": "updown",
+    "ui:title": "Id",
+    "ui:description": "Unique Id of person"
+  }
+}

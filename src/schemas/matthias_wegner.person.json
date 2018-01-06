@@ -1,0 +1,28 @@
+{
+	"id": 1230,
+	"name": {
+		"firstname": "Matthias",
+		"familyname": "Wegner"
+	},
+	"abbreviation": "MW",
+	"phones": [
+		{
+			"number": "+49 123 45678",
+			"type": "mobile"
+		},
+		{
+			"number": "07661 1111111",
+			"type": "private"
+		}
+	],
+	"adresses": [
+		{
+			"street": "Löwenstrasse 1",
+			"zip": "79199",
+			"city": "Kirchzarten",
+			"country": "germany",
+			"type": "residential"
+		}
+	],
+	"status": "active"
+}

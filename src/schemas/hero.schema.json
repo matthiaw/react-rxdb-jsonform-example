@@ -1,0 +1,22 @@
+{
+  "title": "Hero",
+  "description": "Colorfull Hero. Contains Name and color.",
+  "version": 0,
+  "type": "object",
+  "properties": {
+    "name": {
+      "title": "Name",
+      "description": "Name of Hero could be any letter, number or symbol.",
+      "type": "string",
+      "primary": true
+    },
+    "color": {
+      "title": "Color",
+      "description": "Color could be allowed css-values.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "color"
+  ]
+}
