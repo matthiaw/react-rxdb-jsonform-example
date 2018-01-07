@@ -3,6 +3,7 @@ import * as Database from '../../Database';
 import Form from "react-jsonschema-form";
 import formSchemaHero from "../../schemas/hero.schema.json";
 import emptyDataHero from "../../schemas/empty.hero.json";
+import uischema from "../../schemas/hero.uischema.json";
 import './hero-insert.css';
 
 /**
@@ -55,7 +56,9 @@ class HeroInsert extends Component {
     render() {
         return (
             <div className="box">
-                <Form schema={formSchemaHero}
+                <Form
+                  schema={formSchemaHero}
+                  uiSchema={uischema}
                   onSubmit={this.addHero}
                 />
             </div>
