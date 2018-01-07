@@ -1,0 +1,7 @@
+{
+  "color": {
+    "ui:widget": "color",
+    "ui:title": "Color",
+    "ui:description": "Bright color of the hero"
+  }
+}
