@@ -4,10 +4,28 @@ Another Example of a working database-sync-project between IndexedDB (Client) an
 
 For this i simplified and extend the Version with [React.JsonSchemaForm](https://github.com/mozilla-services/react-jsonschema-form) and [React.Table](https://react-table.js.org/#/story/readme). So it is possible to edit a Row-Value and write it back to the database.
 
+Install with
+```
+git clone https://github.com/matthiaw/react-rxdb-jsonform-example.git
+cd react-rxdb-jsonform-example
+sudo npm install
+```
+
 You can start the App with
 ```
 npm start
 ```
+If you have trouble and errors in start, then use
+```
+sudo npm prune
+```
+to remove unused packages or use [npm-check-updates](https://github.com/tjunnone/npm-check-updates) with
+```
+sudo ncu 
+sudo ncu -u
+```
+to check for old package dependencies.
+
 
 When started you can start the App in the Browser at
 ```
